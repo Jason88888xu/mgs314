@@ -1,0 +1,95 @@
+'''
+my_string='This is my string'
+print("my string is", my_string)
+print("Sting of my string is", len(my_string))
+
+print("0 to 5 characters are ",my_string[0:5:2])
+'''
+
+my_string = "Jake"
+print("My name is", my_string)
+
+print("This is first string " + "This is second string")
+
+
+'''
+
+'''
+my_string="I am a UB Student"
+
+print("My String in upper is", my_string.upper())
+
+print("My string in Lower is", my_string.lower())
+
+print("Splitted string is ", my_string.split(' ')) #must be something between''
+
+print("string is splitted by a ",my_string.split('a'))
+
+print("Third string from split is ", my_string.split("a")[2])
+
+
+
+print('Is 2 equal to 2?', 2==2)
+print('Is 3 greater than 2?', 3>2)
+print('Is 3 less than 2?',  3 < 2)
+
+print('Is hello equal to Hello?','hello'=='Hello')
+
+
+print('Is 2 greater than or equal to 1?', 2 >=1)
+print('Is ')
+
+
+
+
+
+
+
+students_list=['Jake','bob','mike']
+
+print('List of student is ', students_list)
+
+print('First student is ', students_list[0])
+print('Second student is',students_list[1])
+print('Third student is', students_list[2])
+
+
+
+
+student_ids={
+  'Jake' : 1234,
+  'John' : 5677,
+  'Mike' : 8910
+}
+
+
+print("Person number of Jake is ", student_ids['Jake'])
+print("Person number of John is ",student_ids['John'])
+
+
+
+
+
+#Calc
+print("Enter the operation you want to perform")
+
+operation = input()
+
+a=10
+b=5
+
+if( operation == "sum" ):
+  print(a + b)
+
+elif(operation == "sub"):
+  print(a * b)
+
+else:
+  print(a / b)
+
+
+hungry = true
+if hungry:
+  print('Feed me')
+else:
+  print("I'm not hungry")
