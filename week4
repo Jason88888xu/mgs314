@@ -1,0 +1,129 @@
+word = "Hello World!"
+
+for characters in word:
+    print(characters)
+'''
+
+
+
+  numbers=[1,2,3,9,11,12]
+
+for number in numbers:
+   print(number)
+
+for number in numbers
+  if number % 2 == 0
+    print(f"number is even: {number}")
+  else:
+    print(f"number is odd:{number}")
+  
+
+'''
+
+number = 0
+
+while number < 10:
+    print(number)
+    number = number + 1
+'''
+
+for number in range(3 , 99):
+  print(number)
+
+
+
+greetings = "Hello,"
+
+name = input("Please enter your name: ")
+
+print(greetings + name)
+
+'''
+
+my_string = "student"
+
+for letter in my_string:
+    if letter == 't':
+        continue
+    print(letter)
+    '''
+  
+my_string="student"
+
+for letter in my_string:
+  if letter=='t':
+    continue
+  print(letter)
+
+'''
+
+my_list = {1, 2, 3, 'h', 'q'}
+print(f"my_list is {my_list}")
+
+my_list.pop()
+print(f"After pop() my_list is {my_list}")
+
+my_list.pop()
+print(f"After pop() my_list is {my_list}")
+
+my_list.pop()
+print(f"After pop() my_list is {my_list}")
+'''
+my_list.append(4)
+print(f"After append() my_list is {my_list}")
+
+my_list.append("Hello")
+print(f"After append() my_list is {my_list}")
+'''
+
+
+def my_function():
+    print("Hello from my_function")
+
+
+def make_sum(a, b):
+    print(f"sum of {a} and {b} is {a + b}")
+
+
+def make_multiply(a, b):
+    print(f"Multiplication of {a} and {b} is {a*b}")
+
+
+def whats_my_name(name):
+    print(f"your nmae is {name}")
+
+
+make_sum(9, 1)
+
+make_sum(-9, -4)
+
+make_multiply(5, 4)
+'''
+
+def student_details():
+  first_name=input('please provide first name: ')
+  last_name=input('please provide last name:')
+  print ( first_name + '' + last_name)
+
+student_details()
+'''
+
+
+def countdown(n):
+    while n > 0:
+        print(n)
+        n = n - 1
+    print("Blast off!!")
+
+
+timer = int(input("Where to start the countdown?: "))
+
+countdown(int(timer))
+''''
+
+def add_function(num1,num2):
+  return num1+num2
+
+result=add_function(1,1)
+print(result)
+'''
